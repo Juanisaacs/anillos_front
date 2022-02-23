@@ -13,8 +13,8 @@ public local: LocalInterface[] = []
   ngOnInit(): void {
     this.localService.getAllLocal().subscribe((data: any)=>{
       const apiResults: LocalInterface[] = data;
-      const fotmattedLocal = apiResults.map(({id, name, image })=>
-      ({id, name, image}));
+      const fotmattedLocal = apiResults.map(({_id, name, image })=>
+      ({_id, name, image}));
       this.local = fotmattedLocal;
     })
   }
