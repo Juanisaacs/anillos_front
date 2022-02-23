@@ -1,5 +1,5 @@
 export interface CharacterInterface {
-    id: number;
+    _id: string;
     name: string;
     origin: string;
     arma: string

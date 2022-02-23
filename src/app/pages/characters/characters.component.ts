@@ -14,8 +14,8 @@ export class CharactersComponent implements OnInit {
   ngOnInit(): void {
     this.charactersService.getAllCharacters().subscribe((data:any) =>{
       const apiResults: CharacterInterface[] = data;
-      const formattedCharacters = apiResults.map(({ id, name,origin, arma, tipo, image})=>({ 
-        id, name, origin,arma, tipo, image}
+      const formattedCharacters = apiResults.map(({ _id, name,origin, arma, tipo, image})=>({ 
+        _id, name, origin,arma, tipo, image}
 
       ));
       this.characters = formattedCharacters;
