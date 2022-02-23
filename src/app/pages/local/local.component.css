@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex-column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://res.cloudinary.com/dn0bflwpm/image/upload/v1645284572/Lord%20of%20the%20Ring/images_pdwkux.png");
+}
+
+.locals-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.locals-container h2 {
+  color: #688fb9;
+  text-transform: uppercase;
+}
+
+.locals-container__card {
+  border: solid 2px #688fb9;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #19181d;
+  width: 50% img;
+  width-width: 50%;
+  width-border-radius: 10px;
+  width-border: solid 2px #688fb9;
+}
+
+.locals-container__card p {
+  padding: 8px;
+  margin: 8px;
+  color: #e5b13a;
+}
+
+.locals-container__card li {
+  padding: 8px;
+  margin: 8px;
+  color: #e5b13a;
+}
+
+.locals-container__card .locals-crawl {
+  padding: 60px;
+  font-size: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-style: italic;
+  text-align: justify;
+}
+/*# sourceMappingURL=local.component.css.map */

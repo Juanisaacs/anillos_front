@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex-column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://res.cloudinary.com/dn0bflwpm/image/upload/v1645284572/Lord%20of%20the%20Ring/images_pdwkux.png");
+}
+
+h6 {
+  padding: 10px;
+  margin: 80px;
+  border-radius: 10px;
+  color: #e5b13a;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  background-color: rgba(19, 12, 14, 0.507);
+  font-size: 18px;
+  text-shadow: 2px 2px 0 #130c0e, 2px -2px 0 #130c0e, -2px 2px 0 #130c0e, -2px -2px 0 #130c0e, 2px 0px 0 #130c0e, 0px 2px 0 #130c0e, -2px 0px 0 #130c0e, 0px -2px 0 #130c0e, 2px 2px 0px rgba(206, 89, 55, 0);
+}
+
+h2 {
+  color: #688fb9;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+.character-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.character-container__card {
+  border: solid 2px #688fb9;
+  border-radius: 10px;
+  margin: 20px;
+  height: 200px;
+  width: 20%;
+}
+
+.character-container__card:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=characters.component.css.map */

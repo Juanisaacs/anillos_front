@@ -1,0 +1,24 @@
+h1 {
+  display: flex-column;
+  background-color: darkgoldenrod;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px,10px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=about.component.css.map */

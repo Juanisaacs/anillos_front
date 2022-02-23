@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex-column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://res.cloudinary.com/dn0bflwpm/image/upload/v1645284572/Lord%20of%20the%20Ring/images_pdwkux.png");
+}
+/*# sourceMappingURL=styles.css.map */

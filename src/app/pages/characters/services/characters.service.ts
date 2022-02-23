@@ -4,7 +4,7 @@ import { HttpClient} from '@angular/common/http'
   providedIn: 'root'
 })
 export class CharactersService {
-  public charactersURL: string =" http://localhost:3000/character" //aqui iria vercel character
+  public charactersURL: string ="https://anillos-server.vercel.app/api/character"  //aqui iria vercel character
 
   constructor(private httpClient: HttpClient) { }
 
