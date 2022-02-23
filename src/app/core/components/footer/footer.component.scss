@@ -1,7 +1,7 @@
 @import "../../../../styles.scss";
 
 footer{
-    width: 100vw;
+    width: 100%;
     bottom: 0;
     height: 40px;
     margin-top: 20px;
@@ -11,8 +11,10 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+       
 
         &__creator{
+            display: flex-column;
             color:$blue;
         }
     }

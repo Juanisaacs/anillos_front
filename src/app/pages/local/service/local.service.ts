@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LocalService {
 
-  public localURL: string = 'http://localhost:3000/local'
+  public localURL: string = 'http://localhost:3000/local' // aqui iria vercel local 
 
   constructor(private httpClient: HttpClient) { }
 
