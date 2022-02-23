@@ -1,0 +1,6 @@
+<h1>Localications</h1>
+<div *ngIf="local.length" class= "locals-container">
+    <div *ngFor="let locals of local" class= "locals-container__card" routerLink="{{locals.id}}" style= "background-image: url({{locals.image}}); background-size: cover; background-position: center;">
+         <h3>{{locals.name}}</h3>
+    </div>
+</div>
